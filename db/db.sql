@@ -1,7 +1,7 @@
 CREATE DATABASE quarkus-social;
 
 CREATE TABLE users(
-	id bigserial not null primary key,
+	id bigserial primary key,
 	name varchar(100) not null,
 	age integer not null
 )
